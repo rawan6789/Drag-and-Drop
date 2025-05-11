@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css.css">
+  
+</head>
+
+<body>
+  <div class="todo-container">
+    <form id="add-form">
+        <input type="text" placeholder="New TODO....." id="todo-input">
+        <button type="submit" id="todo-btn">ADD+</button>
+    </form>
+
+    <div id="boxes">
+        <div id="box1" id="to-do">
+            <h3 class="heading">TO DO</h3>
+
+            <p id="task1" draggable="true">wake up and get energized</p>
+            <p id="task2" draggable="true">have a light meal or morning drink</p>
+            <p id="task3" draggable="true">playing pubg</p>
+        </div>
+
+        <div id="box2" id="doing">
+            <h3 class="heading">DOING</h3>
+
+            <p id="task4" draggable="true">watching a movie</p>
+            <p id="task5" draggable="true">take a short break</p>
+        </div>
+
+        <div id="box3" id="done">
+            <h3 class="heading">DONE</h3>
+
+            <p id="task6" draggable="true">review today's priorities</p>
+        </div>
+
+
+        <div id="box4" id="on hold">
+            <h3 class="heading">ON HOLD</h3>
+
+            <p id="task7" draggable="true">continue or finish remaining tasks</p>
+            <p id="task8" draggable="true">reflect on today's progress</p>
+        </div>
+    </div>
+</div>
+  
+
+
+  <script src="js/script.Js"></script>
+</body>
+</html>
